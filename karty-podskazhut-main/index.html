@@ -16,12 +16,19 @@
 <body class="page theme_dark">
   <header class="header">
     <h1 class="heading header__title content-section">Карты подскажут</h1>
+    <nav class="header__menu content-section">
+      <div class="header__logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="135" height="25">
+          <use href="./images/logo.svg#logo"></use>
+        </svg>
+      </div>
+    </nav>
   </header>
   <main class="content content-section">
     <h2 class="heading content-title">
       Креативный подход к решению проблем
     </h2>
-    <div class="content__text-block .content__text-block_type_first-lettered">
+    <div class="content__text-block content__text-block_type_first-lettered">
       <p class="content__paragraph">
         Творческие кризисы, кажется, рано или поздно испытывает любой человек. Часто бывает так, что вы сталкиваетесь с
         проблемой, не можете решить её с первого раза и начинаете думать, что вообще ни на что не способны. Мозг
@@ -34,7 +41,7 @@
       </p>
     </div>
     <h2 class="heading content-title">Что это за колода</h2>
-    <div class="content__text-block .content__text-block_type_first-lettered">
+    <div class="content__text-block content__text-block_type_first-lettered">
       <p class="content__paragraph">
         Тут могло бы быть что-то про пользу игры в «Дурака» или о высших арканах Таро, но у
         нас на примете другая колода. Она называется Oblique Strategies, или «Обходные стратегии». Первую колоду ещё в
@@ -42,6 +49,17 @@
         мультимедиа-художник Питер Шмидт.
       </p>
     </div>
+    <figure class="content__figure">
+      <picture>
+        <source srcset="./images/cards-1x.webp 1x, ./images/cards-2x.webp 2x" type="image/webp" />
+        <source srcset="./images/cards-1x.avif 1x, ./images/cards-2x.avif 2x" type="image/avif" />
+        <img loading="lazy" class="content__picture" srcset="./images/cards-1x.webp 1x, ./images/cards-2x.webp 2x"
+          alt="Колода в окружении телефона и цветка" />
+      </picture>
+      <figcaption class="content__picture-caption">
+        <p>Колода Oblique Strategies</p>
+      </figcaption>
+    </figure>
     <div class="content__text-block ">
       <p class="content__paragraph">
         Oblique Strategies в основном используют музыканты, но колода подходит для
@@ -57,7 +75,7 @@
       </p>
     </div>
     <h2 class="heading content-title">Как работают «обходные стратегии»</h2>
-    <div class="content__text-block .content__text-block_type_first-lettered">
+    <div class="content__text-block content__text-block_type_first-lettered">
       <p class="content__paragraph">
         Вот что сам Брайан Ино рассказывает о создании Oblique Strategies:</p>
       <blockquote class="content__blockquote">
@@ -81,10 +99,14 @@
       </p>
 
     </div>
+    <article class="content__card">
+      <h3 class="content__card-title heading">Use an <span class="colored-text">ld idea</span></h3>
+      <p class="content__card-subtitle">Воспользуйтесь старой идеей</p>
+    </article>
     <h2 class="heading content-title">Кто пользовался Oblique Strategies
     </h2>
 
-    <div class="content__text-block ">
+    <div class="content__text-block">
       <ul class="content__list">
         <li> Дэвид Боуи во время записи Берлинской трилогии;</li>
         <li> Talking Heads и Дэвид Бирн в сольной карьере;</li>
